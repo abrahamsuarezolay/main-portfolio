@@ -3,16 +3,14 @@ import profile from "../assets/profile.png"
 import html from "../assets/html.png"
 import css from "../assets/css.png"
 import js from "../assets/js.png"
-import js2 from "../assets/js2.png"
 import react from "../assets/react.png"
 import tailwind from "../assets/tailwind.png"
 import bootstrap5 from "../assets/bootstrap5.png"
 import java from "../assets/java.png"
 import spring from "../assets/spring.png"
 import sql from "../assets/sql.png"
-import node from "../assets/node.png"
+import aws from "../assets/aws.png"
 import git from "../assets/git.png"
-import jira from "../assets/jira.png"
 
 const About = () => {
 
@@ -44,8 +42,8 @@ const About = () => {
                             <h2 className="text-gray-100 font-semibold text-center mt-2">REACT</h2>
                         </div>
                         <div className="flex flex-col justify-center items-center mb-8">
-                            <img src={tailwind} alt="tailwindlogo" className="w-[70px]"></img>
-                            <h2 className="text-gray-100 font-semibold text-center mt-2">TAILWIND</h2>
+                            <img src={aws} alt="awslogo" className="w-[70px]"></img>
+                            <h2 className="text-gray-100 font-semibold text-center mt-2">AWS</h2>
                         </div>
                     </div>
                     <div className="flex flex-col" id="second">
@@ -62,8 +60,8 @@ const About = () => {
                             <h2 className="text-gray-100 font-semibold text-center mt-2">GIT</h2>
                         </div>
                         <div className="flex flex-col justify-center items-center mb-8">
-                            <img src={node} alt="nodelogo" className="w-[70px]"></img>
-                            <h2 className="text-gray-100 font-semibold text-center mt-2">NODE</h2>
+                            <img src={java} alt="javalogo" className="w-[70px]"></img>
+                            <h2 className="text-gray-100 font-semibold text-center mt-2">JAVA</h2>
                         </div>
                     </div>
                     <div className="flex flex-col self-center" id="third">

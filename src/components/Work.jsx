@@ -4,17 +4,17 @@ import WorkItem from "./WorkItem"
 
 const data = [
     {
-        year: 2022,
-        title: "LQA Project Coordinator",
-        duration: "1 year - Current position",
-        details: "Managing teams and resources for the localisation department, providing guidance and assistance and ensuring a positive work environment. Keeping communication with clients on a daily basis, informing of progress, queries and issues through Daily Status Reports and scheduling testing and tasks in order to be one step ahead and approach issues in a timely and professional manner."
+        year: 2023,
+        title: "Software Developer - Intermark It",
+        duration: "Current position",
+        details: "Working as a sofware developer for the Research and Development department at Intermark It. Designed and developed responsive, user-friendly front-end interfaces for both web and mobile platforms using React and React Native. Managed data storage efficiently with Spring JPA, ensuring robust database management and seamless data handling. Ensuring team collaboration using GIT for version control."
     },
     {
-        year: 2021,
-        title: "LQA Tester",
+        year: 2022,
+        title: "LQA Project Coordinator - Pole To Win",
         duration: "1 year",
-        details: "Localisation, certification and functionality testing in European Spanish for a wide variety of clients from the software and video games industry, including bug reports and testing documentation."
-}
+        details: "Managing teams and resources for the localisation department, providing guidance and assistance and ensuring a positive work environment. Keeping communication with clients on a daily basis, informing of progress, queries and issues through Daily Status Reports and scheduling testing and tasks in order to be one step ahead and approach issues in a timely and professional manner."
+    },
 ]
 const Work = () => {
     return(
