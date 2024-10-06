@@ -18,13 +18,6 @@ const Projects = () => {
                 description="React app that allows the user to add or delete custom notes." 
                 github="https://github.com/abrahamsuarezolay/react-notes-app"
                 livesite="#"/>
-            <ProjectItem 
-                img={portfolio1} 
-                title="Weather App" 
-                alt="weatherapppic" 
-                description="React app that uses OpenWeatherMap api to display weather information." 
-                github="https://github.com/abrahamsuarezolay/weather-app"
-                livesite="#"/>
         </div>
     </div>
     
