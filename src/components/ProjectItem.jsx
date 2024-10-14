@@ -15,7 +15,7 @@ const ProjectItem = ({img, title, alt, description, github, livesite}) =>{
                 <a href={github}>
                     <p className="p-[3px] mt-1 text-center text-gray-100 text-sm border-solid border-2 rounded-lg border-sky-200 cursor-pointer hover:scale-105 ease-in duration-300 sm:p-1  sm:text-md">Learn More</p>
                 </a>
-                <a href={livesite}>
+                <a href={livesite} target="_blank">
                     <p className="p-[3px] mt-1 text-center text-gray-100 text-sm border-solid border-2 rounded-lg border-sky-200 cursor-pointer hover:scale-105 ease-in duration-300 sm:p-1  sm:text-md">Open Website</p>
                 </a>
             </div>
